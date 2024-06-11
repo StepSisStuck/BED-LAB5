@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "test": "npm run init_tables && jest --forceExit",
+    "init_tables": "node src/configs/initTables.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "run": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.5.0",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.3"
+  },
+  "name": "bed-lab5-exercise-stepsisstuck",
+  "description": "This repository contains a set of tests to verify the functionality of an Express.js API. The tests cover various HTTP routes such as GET, POST, PUT, and DELETE.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
