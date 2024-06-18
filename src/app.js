@@ -21,13 +21,6 @@ app.use(express.urlencoded({ extended: false }));
 const mainRoutes = require('./routes/mainRoutes');
 app.use("/", mainRoutes);
 
-/*
-app.get('/pokedex', (req, res) => {
-    // Fetch the pokedex data and send it as response
-    // This is just a placeholder. Replace it with your actual code.
-    res.json([{ name: 'Bulbasaur', id: 1 }, { name: 'Charmander', id: 2 }]);
-  });
-  */
 //////////////////////////////////////////////////////
 // EXPORT APP
 //////////////////////////////////////////////////////
